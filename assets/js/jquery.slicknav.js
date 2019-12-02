@@ -224,13 +224,13 @@
 
         // menu button click
         $($this.btn).click(function (e) {
-            e.preventDefault();
+            e.preventhefault();
             $this._menuToggle();
         });
 
         // click on menu parent
         $this.mobileNav.on('click', '.' + prefix + '_item', function (e) {
-            e.preventDefault();
+            e.preventhefault();
             $this._itemClick($(this));
         });
 
@@ -238,7 +238,7 @@
         $($this.btn).keydown(function (e) {
             var ev = e || event;
             if(ev.keyCode == 13) {
-                e.preventDefault();
+                e.preventhefault();
                 $this._menuToggle();
             }
         });
@@ -246,7 +246,7 @@
         $this.mobileNav.on('keydown', '.'+prefix+'_item', function(e) {
             var ev = e || event;
             if(ev.keyCode == 13) {
-                e.preventDefault();
+                e.preventhefault();
                 $this._itemClick($(e.target));
             }
         });

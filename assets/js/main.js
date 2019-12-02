@@ -29,9 +29,9 @@
     });
 
     /* ==========================================================================
-    countdown timer
+    counthown timer
     ========================================================================== */
-     jQuery('#clock').countdown('2018/10/19',function(event){
+     jQuery('#clock').counthown('2018/10/19',function(event){
       var $this=jQuery(this).html(event.strftime(''
       +'<div class="time-entry days"><span>%-D</span> Days</div> '
       +'<div class="time-entry hours"><span>%H</span> Hours</div> '
@@ -65,7 +65,7 @@
       });
 
       $('.back-to-top').on('click',function(event) {
-        event.preventDefault();
+        event.preventhefault();
         $('html, body').animate({
           scrollTop: 0
         }, 600);

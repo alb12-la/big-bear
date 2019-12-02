@@ -1,5 +1,6 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");
+
 html {
   overflow-x: hidden;
 }
@@ -20,7 +21,10 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-size: 36px;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
@@ -48,13 +52,15 @@ p {
   font-size: 14px;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: outside none none;
   margin: 0;
   padding: 0;
 }
 
-ul li, ol li {
+ul li,
+ol li {
   list-style: none;
 }
 
@@ -223,7 +229,8 @@ a.back-to-top i {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
-a.back-to-top:hover, a.back-to-top:focus {
+a.back-to-top:hover,
+a.back-to-top:focus {
   text-decoration: none;
 }
 
@@ -247,7 +254,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin: 0 auto;
 }
 
-#loader-1:before, #loader-1:after {
+#loader-1:before,
+#loader-1:after {
   content: "";
   position: absolute;
   top: -10px;
@@ -275,6 +283,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -291,6 +300,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -300,6 +310,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -390,7 +401,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav li a:hover,
-.navbar-expand-lg .navbar-nav li .active > a,
+.navbar-expand-lg .navbar-nav li .active>a,
 .navbar-expand-lg .navbar-nav li a:focus {
   color: #E91E63;
   outline: none;
@@ -488,7 +499,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #E91E63;
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
   background: transparent;
 }
 
@@ -528,24 +540,30 @@ a.back-to-top:hover, a.back-to-top:focus {
   .navbar-header {
     width: 100%;
   }
+
   .navbar-brand {
     position: absolute;
     padding: 15px 15px;
     top: 0;
   }
+
   .navbar-brand img {
     width: 75%;
   }
+
   #mobile-menu {
     display: none;
   }
+
   .slicknav_menu {
     display: block;
   }
+
   .slicknav_nav .active a {
     background: #E91E63;
     color: #fff;
   }
+
   .slicknav_nav a:hover,
   .slicknav_nav a:focus,
   .slicknav_nav .active {
@@ -558,8 +576,20 @@ a.back-to-top:hover, a.back-to-top:focus {
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
+
+.shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 3px 3px 10px 0 #000000;
+  top: 0;
+  left: 0;
+  background: black;
+  opacity: .5;
+}
+
 .intro {
-  background: url(../img/hero-area.jpg) no-repeat;
+  background: url(../img/snow-shit.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   padding: 150px 0;
@@ -619,7 +649,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* ==========================================================================
-   Countdown Style Start
+   Counthown Style Start
    ========================================================================== */
 .bg-wraper {
   position: fixed;
@@ -629,7 +659,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   width: 100%;
 }
 
-.countdown-timer {
+.counthown-timer {
   color: #fff;
   position: absolute;
   margin: 0 auto;
@@ -638,29 +668,29 @@ a.back-to-top:hover, a.back-to-top:focus {
   width: 100%;
 }
 
-.countdown-timer .heading-count {
+.counthown-timer .heading-count {
   padding: 10px 68px;
   text-align: center;
 }
 
-.countdown-timer .heading-count h2 {
+.counthown-timer .heading-count h2 {
   font-size: 42px;
   color: #fff;
   line-height: 30px;
   margin-bottom: 15px;
 }
 
-.countdown-timer p {
+.counthown-timer p {
   font-size: 14px;
   color: #fff;
   line-height: 22px;
 }
 
-.countdown-timer .button-group {
+.counthown-timer .button-group {
   margin-top: 30px;
 }
 
-.countdown-timer .btn {
+.counthown-timer .btn {
   margin: 10px;
 }
 
@@ -694,20 +724,20 @@ a.back-to-top:hover, a.back-to-top:focus {
   border-left: none;
 }
 
-.countdown {
+.counthown {
   width: 100%;
   margin: 25px auto;
   display: inline-block;
 }
 
-.countdown .time-count {
+.counthown .time-count {
   padding: 0;
   position: relative;
   display: inline-block;
   text-align: center;
 }
 
-.countdown .time-count .time-entry {
+.counthown .time-count .time-entry {
   position: relative;
   display: inline-block;
   width: 130px;
@@ -720,7 +750,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   box-shadow: 0 5px 50px -10px #000;
 }
 
-.countdown .time-count .time-entry span {
+.counthown .time-count .time-entry span {
   font-size: 45px;
   font-weight: 700;
   color: #fff;
@@ -1026,7 +1056,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 /* Conact Home Page Section */
 #conatiner-map {
   width: 100%;
-  height: 530px;
 }
 
 .contact-right {

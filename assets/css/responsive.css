@@ -1,6 +1,6 @@
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .countdown-timer .heading-count h2 {
+  .counthown-timer .heading-count h2 {
     font-size: 36px;
   }
   #hero-area .contents .head-title {
@@ -13,7 +13,7 @@
   .line-right .time-count .time-entry span {
     font-size: 40px;
   }
-  .countdown-timer {
+  .counthown-timer {
     padding: 260px 0;
   }
 }
@@ -34,17 +34,17 @@
   .intro .heading-count h2 {
     font-size: 30px;
   }
-  .countdown-timer .heading-count h2 {
+  .counthown-timer .heading-count h2 {
     font-size: 30px;
   }
-  .countdown-timer .heading-count h2 {
+  .counthown-timer .heading-count h2 {
     font-size: 25px;
   }
-  .time-countdown .time-entry {
+  .time-counthown .time-entry {
     width: 100px;
     height: 100px;
   }
-  .time-countdown .time-entry span {
+  .time-counthown .time-entry span {
     font-size: 30px;
   }
 }
@@ -61,23 +61,23 @@
   .intro .heading-count h2 {
     font-size: 26px;
   }
-  .time-countdown .time-entry {
+  .time-counthown .time-entry {
     width: 100px;
     height: 100px;
   }
-  .time-countdown .time-entry span {
+  .time-counthown .time-entry span {
     font-size: 30px;
   }
-  .time-countdown {
+  .time-counthown {
     margin-bottom: 30px;
   }
-  .countdown-timer .heading-count {
+  .counthown-timer .heading-count {
     padding: 10px;
   }
-  .countdown-timer .heading-count h2 {
+  .counthown-timer .heading-count h2 {
     font-size: 26px;
   }
-  .countdown-timer .heading-count h4 {
+  .counthown-timer .heading-count h4 {
     font-size: 12px;
   }
   .subscribe-form .form-inline .btn {
@@ -86,11 +86,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .time-countdown .time-entry {
+  .time-counthown .time-entry {
     width: 100px;
     height: 100px;
   }
-  .time-countdown .time-entry span {
+  .time-counthown .time-entry span {
     font-size: 30px;
   }
   .subscribe-form .form-inline .btn {

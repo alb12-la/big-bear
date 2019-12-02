@@ -740,7 +740,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: bounceOut;
 }
 
-@-webkit-keyframes bounceOutDown {
+@-webkit-keyframes bounceOuthown {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -759,7 +759,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-@keyframes bounceOutDown {
+@keyframes bounceOuthown {
   0% {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -781,9 +781,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-.bounceOutDown {
-  -webkit-animation-name: bounceOutDown;
-  animation-name: bounceOutDown;
+.bounceOuthown {
+  -webkit-animation-name: bounceOuthown;
+  animation-name: bounceOuthown;
 }
 
 @-webkit-keyframes bounceOutLeft {
@@ -1254,7 +1254,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: fadeOut;
 }
 
-@-webkit-keyframes fadeOutDown {
+@-webkit-keyframes fadeOuthown {
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -1268,7 +1268,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-@keyframes fadeOutDown {
+@keyframes fadeOuthown {
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -1284,12 +1284,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-.fadeOutDown {
-  -webkit-animation-name: fadeOutDown;
-  animation-name: fadeOutDown;
+.fadeOuthown {
+  -webkit-animation-name: fadeOuthown;
+  animation-name: fadeOuthown;
 }
 
-@-webkit-keyframes fadeOutDownBig {
+@-webkit-keyframes fadeOuthownBig {
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -1303,7 +1303,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-@keyframes fadeOutDownBig {
+@keyframes fadeOuthownBig {
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -1319,9 +1319,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-.fadeOutDownBig {
-  -webkit-animation-name: fadeOutDownBig;
-  animation-name: fadeOutDownBig;
+.fadeOuthownBig {
+  -webkit-animation-name: fadeOuthownBig;
+  animation-name: fadeOuthownBig;
 }
 
 @-webkit-keyframes fadeOutLeft {
@@ -2187,7 +2187,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: rotateOut;
 }
 
-@-webkit-keyframes rotateOutDownLeft {
+@-webkit-keyframes rotateOuthownLeft {
   0% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -2205,7 +2205,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-@keyframes rotateOutDownLeft {
+@keyframes rotateOuthownLeft {
   0% {
     -webkit-transform-origin: left bottom;
     -ms-transform-origin: left bottom;
@@ -2227,12 +2227,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-.rotateOutDownLeft {
-  -webkit-animation-name: rotateOutDownLeft;
-  animation-name: rotateOutDownLeft;
+.rotateOuthownLeft {
+  -webkit-animation-name: rotateOuthownLeft;
+  animation-name: rotateOuthownLeft;
 }
 
-@-webkit-keyframes rotateOutDownRight {
+@-webkit-keyframes rotateOuthownRight {
   0% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -2250,7 +2250,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-@keyframes rotateOutDownRight {
+@keyframes rotateOuthownRight {
   0% {
     -webkit-transform-origin: right bottom;
     -ms-transform-origin: right bottom;
@@ -2272,9 +2272,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-.rotateOutDownRight {
-  -webkit-animation-name: rotateOutDownRight;
-  animation-name: rotateOutDownRight;
+.rotateOuthownRight {
+  -webkit-animation-name: rotateOuthownRight;
+  animation-name: rotateOuthownRight;
 }
 
 @-webkit-keyframes rotateOutUpLeft {
